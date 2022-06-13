@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Rafael Sifuentes Portfolio</title>
 </head>
 <body>
 
     <!--=============== HEADER ===============-->
     <header class="profile container">
+
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
         <div class="profile__container grid">
             <div class="profile__data">
                 <div class="profile__border">
@@ -20,7 +23,7 @@
                 </div>
 
                 <h2 class="profile__name">Rafael Sifuentes</h2>
-                <h3 class="profile__proffesion">  Web Developer</h3>
+                <h3 class="profile__profession">  Web Developer <br> Based in Nacogdoches TX</h3>
 
                 <ul class="profile__social">
                     <a href="https://www.instagram.com/m3ndigo_24/" target="_blank" class="profile__social-link">
@@ -77,7 +80,7 @@
         <section class="filters container">
             <!--=============== FILTERS TAB ===============-->
             <ul class="filters__content">
-                <button class="filters__button" data-target="#projects">
+                <button class="filters__button filter-tab-active" data-target="#projects">
                     Projects
                 </button>
 
@@ -96,7 +99,7 @@
                             <div>
                                 <span class="projects__subtitle">Web</span>
                                 <h3 class="projects__title">Car Detailing Website</h3>
-                                <a href="" class="projects__button button button__small">
+                                <a href="https://elm3ndigo.github.io" target="_blank" class="projects__button button button__small">
                                     <i class="ri-link"></i>
                                 </a>
                             </div>
@@ -287,7 +290,16 @@
         </section>
 
     </main>
-    
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; RAFAEL SIFUENTES. All Rights Reserved
+        </span>
+    </footer>
+
+    <script src="assets/javaScript/scrollreveal.min.js"></script>
     <script src="assets/javaScript/main.js"></script>
+    
 </body>
 </html>
